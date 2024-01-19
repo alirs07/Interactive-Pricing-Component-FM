@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- <div class="background-img-test"></div> -->
+    <div class="wrapper">
+      <div class="titles">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>sign-up fot out 30-day trial. No credit card required.</p>
+      </div>
+      <div class="main-box">
+        <div class="top-sec">
+          <div class="price-content">
+            <p class="price-content-detail"><span class="pageview-value">100K</span> Pageviews</p>
+            <p class="price-text">
+              <span id="priceValue">$16.00</span>
+              / month
+            </p>
+            <input class="price-slider" type="range" min="0" max="4" value="2" />
+          </div>
+
+          <div class="billing-sec">
+            <p>Monthly Billing</p>
+            <label class="billing-sec-input-label">
+              <input class="billing-sec-input" type="checkbox" />
+              <span></span>
+            </label>
+            <p class="billing-sec-item">Yearly Billing</p>
+          </div>
+        </div>
+
+        <div class="cta-trial-sec">
+          <div class="cta-details">
+            <div class="cta-detail">
+              <img src="images/icon-check.svg" alt="" />
+              <span>Unlimited websites</span>
+            </div>
+            <div class="cta-detail">
+              <img src="images/icon-check.svg" alt="" />
+              <span>100% data ownership</span>
+            </div>
+            <div class="cta-detail">
+              <img src="images/icon-check.svg" alt="" />
+              <span>Email reports</span>
+            </div>
+          </div>
+          <button class="cta-button">Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
